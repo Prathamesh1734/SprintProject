@@ -1,5 +1,9 @@
 package com.cg.dao;
 
-public class UserJpaRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.cg.model.User;
+
+public interface UserJpaRepository extends JpaRepository<User, Integer>{
 
 }
