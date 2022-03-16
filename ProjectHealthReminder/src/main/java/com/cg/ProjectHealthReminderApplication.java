@@ -8,7 +8,7 @@ public class ProjectHealthReminderApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProjectHealthReminderApplication.class, args);
-		System.out.println("Inside main methods");
+		System.out.println("Inside main method");
 	}
 
 }
